@@ -2,18 +2,20 @@
 # Tuple adalah struktur data kolektif sekuensial yang tidak dapat diubah bawaan python
 
 # Tuple juga bisa menyimpan banyak tipe data yang berbeda dan mengizinkan duplikasi data
-this_is_tuple = ("oke", 100, 9.0, "oke")
-# print(this_is_tuple)
+this_is_tuple = ("oke", 100, 9.0, "oke") #immutable
+print(this_is_tuple)
 
 #yang termasuk data tuple
 this_is_not_tuple_1 = (2)
-print(type(this_is_not_tuple_1))
+#print(type(this_is_not_tuple_1))
 
 this_is_not_tuple_2 = ("Borobudur")
-print(type(this_is_not_tuple_2)) 
+#print(type(this_is_not_tuple_2)) 
 
 tup = (2,)
-print(type(tup))
+#print(type(tup))
+tup1 = ("Borobudur",)
+#print(type(tup1))
 
 #membuat tupple
 x = tuple("abc")
@@ -53,21 +55,24 @@ int_tuple = (1,5,2,4,3,7,6)
 # print(this_is_tuple)
 
 #List vs Tuple
-num_list = [3, 1, 2]
-num_list.append(5)
-#print(num_list)
+
+#1.Apppend
+# num_list = [3, 1, 2]
+# num_list.append(5)
+# print(num_list)
 
 
-num_tuple = (3, 1, 2)
-#num_tuple.append(5)
+# num_tuple = (3, 1, 2)
+# #num_tuple.append(5)
+# print(num_tuple)
+
+
+#2.Del
+# num_list = [3, 1, 2]
+# del num_list[0]
+# print(num_list)
+
+
+# num_tuple = (3, 1, 2)
+# del num_tuple[0]
 #print(num_tuple)
-
-num_list = [3, 1, 2]
-del num_list[0]
-print(num_list)
-
-
-num_tuple = (3, 1, 2)
-#del num_tuple[0]
-#print(num_tuple)
-
