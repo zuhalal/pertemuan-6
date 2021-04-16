@@ -94,9 +94,9 @@ print("###".join(l))
 #Satu berubah, yang memiliki reference yang sama ikut berubah
 x = [3, 1]
 y = x
-#a ---------------\
+#x ---------------\
 #-----------------------> [3,1]
-#b ---------------|
+#y ---------------|
 y.append(2)
 #print(x) # [3, 1, 2]
 
