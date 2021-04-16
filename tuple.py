@@ -5,6 +5,39 @@
 this_is_tuple = ("oke", 100, 9.0, "oke")
 # print(this_is_tuple)
 
+#yang termasuk data tuple
+this_is_not_tuple_1 = (2)
+print(type(this_is_not_tuple_1))
+
+this_is_not_tuple_2 = ("Borobudur")
+print(type(this_is_not_tuple_2)) 
+
+tup = (2,)
+print(type(tup))
+
+#membuat tupple
+x = tuple("abc")
+#print(x) # ('a', 'b', 'c')
+
+y = tuple([2, 1, 2, 1])
+#print(y) # (2, 1, 2, 1)
+
+z = tuple(range(3))
+#print(z) # (0, 1, 2)
+
+w = tuple()
+#print(w) # ()
+
+#operasi pada tupple
+# print("oke" in this_is_tuple)
+# print(len(this_is_tuple))
+
+#Tuple Method
+int_tuple = (1,5,2,4,3,7,6)
+# print(min(int_tuple))
+# print(max(int_tuple))
+# print(sum(int_tuple))
+
 # Akses data di Tuple
 # print("First index is ", this_is_tuple[0])
 # print("Last index is ", this_is_tuple[-1])
@@ -18,3 +51,23 @@ this_is_tuple = ("oke", 100, 9.0, "oke")
 # this_is_listed_tuple[2] = 10
 # this_is_tuple = tuple(this_is_listed_tuple)
 # print(this_is_tuple)
+
+#List vs Tuple
+num_list = [3, 1, 2]
+num_list.append(5)
+#print(num_list)
+
+
+num_tuple = (3, 1, 2)
+#num_tuple.append(5)
+#print(num_tuple)
+
+num_list = [3, 1, 2]
+del num_list[0]
+print(num_list)
+
+
+num_tuple = (3, 1, 2)
+#del num_tuple[0]
+#print(num_tuple)
+
